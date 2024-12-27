@@ -5,6 +5,13 @@ current_player = "X"
 winner = None
 game_running = True
 
+delimiter = '='*20
+print('Welcome to Tic Tac Toe')
+print(delimiter)
+print('Game rules: Each plaer can place their mark or stone on the board. The player, who has three marks or stones in horizontal, vertical or diagonal row, wins the game')
+print(delimiter)
+print('You can start the game')
+print(delimiter)
 
 
 def print_board(board):
